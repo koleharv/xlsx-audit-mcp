@@ -30,6 +30,10 @@
   ],
   "license": "MIT",
   "author": "Kole Harvey",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arose26/xlsx-audit-mcp.git"
+  },
   "engines": {
     "node": ">=18"
   },
