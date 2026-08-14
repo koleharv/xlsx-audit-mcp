@@ -1,0 +1,47 @@
+{
+  "name": "xlsx-audit-mcp",
+  "version": "0.1.0",
+  "mcpName": "io.github.arose26/xlsx-audit-mcp",
+  "description": "MCP server that audits Excel workbooks — formula dependency tracing, circular-reference detection, and risk smells (INDIRECT, hardcoded constants, external links). Reviews the model, not the data.",
+  "type": "module",
+  "bin": {
+    "xlsx-audit-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "excel",
+    "xlsx",
+    "spreadsheet",
+    "formula",
+    "audit",
+    "dependency-tracing",
+    "financial-model",
+    "claude"
+  ],
+  "license": "MIT",
+  "author": "Kole Harvey",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "fast-xml-parser": "^5.10.0",
+    "fflate": "^0.8.2",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0",
+    "@types/node": "^22.0.0"
+  }
+}
