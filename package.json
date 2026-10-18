@@ -1,7 +1,7 @@
 {
   "name": "xlsx-audit-mcp",
-  "version": "0.1.0",
-  "mcpName": "io.github.arose26/xlsx-audit-mcp",
+  "version": "0.1.1",
+  "mcpName": "io.github.koleharv/xlsx-audit-mcp",
   "description": "MCP server that audits Excel workbooks — formula dependency tracing, circular-reference detection, and risk smells (INDIRECT, hardcoded constants, external links). Reviews the model, not the data.",
   "type": "module",
   "bin": {
@@ -32,7 +32,7 @@
   "author": "Kole Harvey",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arose26/xlsx-audit-mcp.git"
+    "url": "git+https://github.com/koleharv/xlsx-audit-mcp.git"
   },
   "engines": {
     "node": ">=18"
