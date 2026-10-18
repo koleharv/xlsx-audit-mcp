@@ -1,17 +1,17 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.arose26/xlsx-audit-mcp",
+  "name": "io.github.koleharv/xlsx-audit-mcp",
   "description": "Audit Excel workbooks: formula dependency tracing, circular references, risk smells. Local only.",
   "repository": {
-    "url": "https://github.com/arose26/xlsx-audit-mcp",
+    "url": "https://github.com/koleharv/xlsx-audit-mcp",
     "source": "github"
   },
-  "version": "0.1.0",
+  "version": "0.1.1",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "xlsx-audit-mcp",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "transport": {
         "type": "stdio"
       }
